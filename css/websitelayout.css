@@ -1,0 +1,56 @@
+.header{
+    height: 150px;
+    background-color: gray;
+}
+
+.nav{
+    height: 70px;
+    background-color: gray;
+}
+
+.left{
+    /* height: 630px; */
+    /* background-color: orange; */
+}
+.s1{
+    height: 200px;
+    background-color: gray;
+}
+.s1:nth-child(2){
+    margin: 15px 0px;
+}
+
+
+.right{
+    /* height: 630px; */
+    /* background-color: yellowgreen; */
+}
+.a1{
+    height: 140px;
+    background-color: gray;
+}
+.a1:nth-child(2){
+    margin: 15px 0px;
+}
+
+.a2{
+    height: 70px;
+    background-color: gray;
+    margin-top: 15px;
+}
+.side{
+    background-color: lightgray;
+}
+
+.a3{
+    height: 80px;
+    background-color: gray;
+    margin-top: 15px;
+}
+
+/* footer */
+.footer{
+    height: 100px;
+    background-color: gray;
+    margin-top: 15px;
+}

@@ -1,0 +1,63 @@
+.left-side{
+    /* height: 900px; */
+    /* background-color: orange; */
+}
+
+.pink{
+    height: 250px;
+    background-color: hotpink;
+}
+.yellow{
+    height: 150px;
+    background-color: yellow;
+}
+.green{
+    height: 150px;
+    background-color: green;
+}
+
+.black{
+    height: 200px;
+    background-color: black;
+}
+.gray{
+    height: 200px;
+    background-color: gray;
+}
+
+/* right-side */
+.right-side{
+    /* height: 900px; */
+    /* background-color: purple; */
+}
+
+.brown{
+    height: 250px;
+    background-color: brown;
+}
+.green1{
+    height: 250px;
+    background-color: green;
+}
+.gray1{
+    height: 250px;
+    background-color: lightgray;
+}
+
+.blue1{
+    height: 100px;
+    background-color: blue;
+}
+.pink1{
+    height: 100px;
+    background-color: pink;
+}
+
+.green2{
+    height: 125px;
+    background-color: yellowgreen;
+}
+.violet{
+    height: 125px;
+    background-color: violet;
+}

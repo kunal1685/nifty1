@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-size: 100%;
+}
+
+/* root is used to control all the color form seprate place */
+:root{
+    --white-color: #ffffff;
+    --blue-color: #5385c1;
+    --gray-color: #808080;
+    --light-gray: #d3d3d3;
+}
+
+/* header starts now */
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url('../theory/dd.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    border-top: 5px solid var(--blue-color);
+}
+
+/* toggle-bar when we click it */
+.navbar-toggle:focus{
+    background-color: #fff !important;
+}
+
+#navigation{
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+#navigation a{
+    color: var(--white-color);
+}
+
+.rightnav a{
+    font-size: 1.4em;
+}
+.rightnav a:hover{
+    /* border-bottom: 1px solid var(--white-color); */
+    text-decoration: underline !important;
+}
+
+/* banner starts now */
+.banner{
+    width: 60%;
+    margin: 0 auto;
+    color: var(--white-color);
+    margin-top: 45px;
+    /* border: 1px solid red; */
+}
+.banner h1{
+    font-size: 4.6em;
+    font-weight: 100;
+}
+.banner p{
+    font-size: 1.3em;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+/* Section1 starts now */
+#section1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section-1{
+    padding: 0px 50px;
+    /* border: 1px solid red; */
+}
+.add-border{
+    border-left: 1px solid var(--light-gray);
+    border-right: 1px solid var(--light-gray);
+}
+
+.section-1 h4{
+    color: var(--blue-color);
+    line-height: 25px;
+    font-weight: 400;
+}
+.section-1 p{
+    font-size: 1.2em;
+    font-weight: 200;
+    line-height: 22px;
+}
+
+.btn1{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Section2 starts now */
+.section2{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+.section2 h2{
+    font-size: 2.5em;
+    font-weight: 100;
+}
+.section2 p{
+    font-weight: 100;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+.person{
+    padding: 25px;
+    border: 1px solid var(--light-gray);
+    margin-top: 30px;
+}
+
+/* section3 starts now */
+.section3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--light-gray);
+}
+.section3 h1{
+    color: var(--blue-color);
+    font-weight: 100;
+}
+.section3 p{
+    font-size: 1.2em;
+    color: var(--gray-color);
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.section3 h4{
+    color: var(--blue-color);
+    padding: 15px 0px;
+    font-weight: 300;
+}
+.section3 img{
+    width: 100%;
+}
+ .pic1{
+    margin-right: 15px;
+    margin-top: 50px;
+}
+.pic2{
+    margin-left: 15px;
+    margin-top: 50px;
+}  
+
+
+/* footer starts now */
+.footer{
+    padding: 25px 0px;
+}
+.footer .icons i{
+    padding: 0px 10px;
+    font-size: 14px;
+    color: var(--blue-color);
+}
+
+
+
+@media screen and (max-width: 992px){
+    .add-border{
+        border-left: none;
+        border-right: none;
+    }
+
+    /* section3 class */
+    .pic1{
+        margin-right: 0px;
+    }
+    .pic2{
+        margin-left: 0px;
+    }  
+}
+
+@media screen and (max-width: 992px){
+    .footer p{
+        text-align: center;
+    }
+    .footer .icons{
+        text-align: center;
+    }
+}

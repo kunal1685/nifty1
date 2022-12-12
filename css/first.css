@@ -1,0 +1,45 @@
+.box1{
+    height: 100px;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+
+.box2{
+    height: 400px;
+    /* background-color: blueviolet; */
+}
+
+.box3{
+    height: 400px;
+    background-color: cyan;
+}
+
+
+.box4{
+    height: 200px;
+    background-color:yellow;
+}
+.box5{
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+/* layout 1 finish */
+
+/* layout2 starts now */
+.box6{
+    height: 100px;
+    background-color: coral;
+}
+.box7{
+    height: 400px;
+    background-color: yellow;
+}
+.box8{
+    height: 400px;
+    background-color: yellowgreen;
+}
+.box9{
+    height: 100px;
+    background-color: purple;
+}

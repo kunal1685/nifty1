@@ -1,0 +1,251 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #ddd;
+}
+
+#myContainer{
+    padding: 0;
+}
+
+#myContainer .navbar-header{
+    float: none;
+}
+
+#myContainer .navbar-toggle{
+    display: block;
+    background-color: transparent;
+    border: transparent;
+}
+
+#myContainer .navbar{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent !important;
+    border: transparent;
+}
+#myContainer a{
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+}
+
+#myContainer .left{
+    float: left;
+    color: #fff !important;
+}
+#myContainer .menu{
+    float: right;
+    position: relative;
+    top: -2px;
+    left: 5px;
+    color: #fff;
+}
+
+/* carouse */
+.carousel .item{
+    background-image: url("../Hielo/images/slide01.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.carousel .item-2{
+    background-image: url("../Hielo/images/slide02.jpg");
+}
+.carousel .item-3{
+    background-image: url("../Hielo/images/slide03.jpg");
+}
+.carousel .item-4{
+    background-image: url("../Hielo/images/slide04.jpg");
+}
+.carousel .item-5{
+    background-image: url("../Hielo/images/slide05.jpg");
+}
+
+
+/* banner */
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.banner p{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.banner hr{
+    width: 50%;
+}
+
+.banner h1{
+    font-size: 55px;
+    font-weight: 300;
+}
+
+/* header ends now */
+
+/* section1 starts now */
+#section1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /* border: 1px solid red; */
+}
+
+#section1 img{
+    width: 100%;
+}
+
+#section1 .left{
+    width: 95%;
+    background-color: #fff;
+}
+#section1 .right{
+    width: 95%;
+    margin-left: 5%;
+    background-color: #fff;
+}
+#section1 h6{
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: gray;
+}
+#section1 hr{
+    width: 40%;
+    margin: 0 auto;
+    color: gray !important;
+}
+
+#section1 p{
+    padding: 20px 50px 20px;
+    color: gray;
+    font-size: 14px;
+    line-height: 22px;
+}
+#section1 h3{
+    font-weight: 300;
+}
+
+#section1 button{
+    margin-bottom: 40px;
+}
+#section1 .btn{
+    border-radius: 0px !important;
+}
+
+/* section2 */
+#section2{
+    background-image: url("../hielo/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 50px 0px;
+}
+#section2 p{
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 9px;
+}
+#section2 hr{
+    width: 38%;
+    margin: 0 auto;
+}
+
+/* section3 */
+#section3{
+    padding: 70px 0px;
+    /* border: 1px solid red; */
+}
+#section3 h4{
+    margin-bottom: 50px;
+}
+#section3 p{
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 9px;
+}
+#section3 hr{
+    width: 38%;
+    margin: 0 auto;
+}
+
+#section3 img{
+    width: 95%;
+    border: 10px solid #fff;
+    margin-bottom: 8%;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+    padding: 20px 0px;
+}
+footer i{
+    padding: 0px 5px;
+    font-size: 16px;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        margin: 0px 0px;
+    }
+
+    /* #section2 */
+    #section2 p{
+        padding: 0px 20px;
+    }
+    #section3 p{
+        padding: 0px 20px;
+    }
+    #section3 .row {
+        margin-right: 0px;
+        margin-left: 0px;
+   } 
+}
+
+@media screen and (max-width: 992px) {
+    #section1 .left{
+        margin: 0 auto;
+    }
+    #section1 .right{
+        margin: 0 auto !important;
+        margin-left: 0%;
+        margin-top: 50px !important;
+    }
+}
+
+
